@@ -9,7 +9,8 @@ Intrucciones de la versión 0.8 beta:
 	2. Cada alumno/equipo debe tener una carpeta propia.
 	3. Dentro de cada carpeta debe existir al menos un archivo config.cfg
 	   3.1 Cada archivo config.cfg debe incluír un email.
-	4. Si se desea incluír un comentario adicional en el correo, este deberá ser añadido en el archivo obs.txt
+	4. Si se desea incluír un comentario adicional en el correo, este deberá ser añadido en un archivo obs.txt
+	   4.1 Los archivos de comentarios obs.txt deben ir en la carpeta de cada alumno/equipo.
 	5. Para enviar los correos deberá sólo ejecutar el main.sh
 
 Por esta versión el correo se debe modificar a mano y el template se encuentra en el archivo email.txt.
