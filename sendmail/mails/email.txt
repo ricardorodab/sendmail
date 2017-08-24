@@ -1,0 +1,30 @@
+Subject: #ASUNTO#
+
+Hola #NOMBRE#,
+
+Te envío la calificación de tu #ACTIVIDAD#: 
+
+Observaciones:
+
+#OBSERVACIONES#
+
+Calificación: #CALIFICACION# 
+
+Esta calificación es tentativa ya que debe pasar primero una segunda revisión.
+Si llegase a haber algún cambio en su calificación se te estaría comunicando por este medio o en salón de clase.
+
+Saludos.
+
+P.D.: - En caso de que la actividad #ACTIVIDAD# haya sido en equipo, favor de reenviar a sus compañeros este correo. Gracias.
+
+<Este es un email generado de manera automatica y enviado por un script con SendMail la fecha: #FECHA#.
+Si tiene alguna duda o aclaracion correspondiente a la actividad #ACTIVIDAD#, puede responder este correo. >
+
+-- 
+ATENTAMENTE
+José Ricardo Rodríguez Abreu.
+
+“Por mi raza hablará el espíritu.”
+Ciudad Universitaria, México D.F. 
+Universidad Nacional Autónoma de México. 
+Facultad de Ciencias. Ciencias de la Computación.

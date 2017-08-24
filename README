@@ -1,0 +1,15 @@
+
+Este programa usa Sendmail por lo que debe tener configurado en su computadora o dispositivo Unix previamente.
+Guía recomendada: https://easyengine.io/tutorials/linux/ubuntu-postfix-gmail-smtp/
+
+Intrucciones de la versión 0.8 beta:
+
+	1. Debe existir una carpeta base donde se encuentren todas las demás carpetas
+	   1.1. En esta carpeta existe el archivo main.sh
+	2. Cada alumno/equipo debe tener una carpeta propia.
+	3. Dentro de cada carpeta debe existir al menos un archivo config.cfg
+	   3.1 Cada archivo config.cfg debe incluír un email.
+	4. Si se desea incluír un comentario adicional en el correo, este deberá ser añadido en el archivo obs.txt
+	5. Para enviar los correos deberá sólo ejecutar el main.sh
+
+Por esta versión el correo se debe modificar a mano y el template se encuentra en el archivo email.txt.
