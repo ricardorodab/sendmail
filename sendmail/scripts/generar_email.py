@@ -1,4 +1,4 @@
-#!/usr/local/bin/python
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
 
  # -----------------------------------------------------------------
@@ -33,6 +33,7 @@ import ConfigParser
 import sys
 import os
 import datetime
+
 def get_observaciones(file_name):
     if os.path.exists(file_name):
         with open(file_name, 'r') as myfile:
@@ -70,14 +71,13 @@ def main():
     configFilePath = name_file
     configParser.read(configFilePath)
 
-    asunto = configParser.get('DATOS', 'ASUNTO')
-    nombre = configParser.get('DATOS', 'NOMBRE')
-    actividad = configParser.get('DATOS', 'ACTIVIDAD')
-    observaciones = configParser.get('DATOS', 'OBSERVACIONES')
-    observaciones = get_observaciones(observaciones)
+    asunto = sys.argv[3]
+    nombre = configParser.get('NOMBRE', 'nombre')
+    actividad = sys.argv[4]
+    observaciones = get_observaciones(sys.argv[5])
     
-    calificacion = configParser.get('DATOS', 'CALIFICACION')
-    email = configParser.get('MAIL', 'EMAIL')
+    calificacion = sys.argv[6]
+    email = configParser.get('EMAIL', 'correo')
 
     sustituye(asunto, nombre, actividad,
               observaciones, calificacion, sys.argv[2])

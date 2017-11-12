@@ -32,7 +32,7 @@ for D in `find . -type d -maxdepth 1`
 do
     # Revisemos que no entramos en la carpeta actual (de nuevo) y
     # no tocamos la carpeta donde se encuentra el src.
-    if [ "$D" == "./sendmail" ] || [ "$D" == "." ]
+    if [ "$D" == "./.sendmail" ] || [ "$D" == "." ]
     then
 	echo -n "Se intenta acceder a: "
 	echo -n $D
