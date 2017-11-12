@@ -5,7 +5,7 @@ then
     echo "Se hará pull a todos los repositorios"
     echo -n "¿Desea continuar? [Y/N]: "
     read respuesta
-    if [ "$respuesta" == "Y" ] || [ "$respuesta" == "y" ] || [ "$respuesta" == "yes" ]
+    if [ "$respuesta" == "Y" ] || [ "$respuesta" == "y" ] || [ "$respuesta" == "yes" ] 
     then
 	./.sendmail/scripts/hacer_pull.sh
 	echo "Operacion lista: Repositorios actualizados"

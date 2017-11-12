@@ -12,7 +12,7 @@ def main():
     configParser.read(configFilePath)
 
     division = sys.argv[2].upper()
-    observacion = configParser.get(divison, 'observaciones')
+    observacion = configParser.get(division, 'observaciones')
     observacion = observacion.replace(" ","").strip()
     if observacion:
         print observacion

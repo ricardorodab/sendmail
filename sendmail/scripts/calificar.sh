@@ -25,8 +25,8 @@ do
 	location="$(pwd)/.sendmail"
 	cd $D
 	#Sacamos la calificacion.
-	calificacion="$(python location/scripts/get_calificacion.py ./calificaciones.cfg $actividad)"
-	observaciones="$(python location/scripts/get_observaciones.py ./calificaciones.cfg $actividad)"
+	calificacion="$(python $location/scripts/get_calificacion.py ./calificaciones.cfg "$actividad")"
+	observaciones="$(python $location/scripts/get_observaciones.py ./calificaciones.cfg "$actividad")"
 	#Modificamos el archivo de las Calificaciones.
 	cd "$(cat repo_name.cfg)"
 	touch Calificaciones.txt
@@ -43,7 +43,7 @@ do
 	cd $base
 	cd $D
 	cp "$location/mails/email.txt" ./	
-	python "$location/scripts/generar_email.py" ./datos.cfg ./email.txt $asunto $actividad $observaciones $calificacion
+	python "$location/scripts/generar_email.py" ./datos.cfg ./email.txt "$asunto" "$actividad" "$observaciones" "$calificacion"
 	correo="$(cat ./correo.txt)"
 	echo $correo
 	echo "$actividad - $correo - $(date)" >> "$location/salida.log"

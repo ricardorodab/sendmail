@@ -12,7 +12,7 @@ def main():
     configParser.read(configFilePath)
 
     division = sys.argv[2].upper()
-    calificacion = configParser.get(divison, 'calificacion')
+    calificacion = configParser.get(division, 'calificacion')
     print calificacion
 
 
