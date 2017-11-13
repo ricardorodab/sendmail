@@ -57,9 +57,9 @@ do
 	unset location
 	unset correo
 	unset calificacion
-	unset actividad
-	unset commit
-	unset asunto
     fi
 done
 
+unset actividad
+unset commit
+unset asunto
