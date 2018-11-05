@@ -1,6 +1,7 @@
 
 Este programa usa Sendmail por lo que debe tener configurado en su computadora o dispositivo Unix previamente.
 Guía recomendada: https://easyengine.io/tutorials/linux/ubuntu-postfix-gmail-smtp/
+Guía recomendada: https://linuxconfig.org/configuring-gmail-as-sendmail-email-relay
 
 Intrucciones de la versión 0.8 beta:
 
